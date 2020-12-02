@@ -1,0 +1,65 @@
+.inventory-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.inventory {
+  position: relative;
+  border: 5px solid DarkGreen;
+  border-top: 18px solid DarkGreen;
+  border-radius: 10px;
+  width: 80%;
+  background: #2E8B57;
+
+  &__close:before {
+    content: '\2716';
+    position: absolute;
+    right: 2px;
+    top: -20px;
+    color: red;
+    cursor: pointer;
+  }
+
+  &__header {
+    height: 200px;
+  }
+}
+
+.buy-tackle__header {
+  background: DarkGreen;
+  width: 100%;
+  height: 200px;
+}
+
+.btn-tackle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  div {
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+      color: white;
+      transition: color 0.5s ease-out;
+    }
+  }
+}
+
+.tackle-list {
+  width: auto;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+
+  &__message {
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,76 @@
+.shop {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/backgrounds/shop-bg.jpg") 60% 30% no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-inventory {
+  display: flex;
+
+  &__shop {
+    max-width: 500px;
+  }
+
+  &__cage {
+    margin-right: 5px;
+    height: 418px;
+    border-radius: 10px;
+    width: 150px;
+    border: 5px solid #765448;
+    background: url("../assets/backgrounds/background.png") no-repeat;
+  }
+}
+
+.buy-tackle {
+  position: relative;
+  border: 5px solid DarkGreen;
+  border-top: 18px solid DarkGreen;
+  border-radius: 10px;
+  width: 100%;
+  background: #2E8B57;
+
+  &__money {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    color: red;
+  }
+
+
+}
+
+.fish-sell {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border: 5px solid #765448;
+  background: url("../assets/backgrounds/background.png") no-repeat;
+  background-size: cover;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__all, &__assessed {
+    width: 250px;
+    height: 120px;
+  }
+
+  &__assessed {
+    &:hover {
+      border: 3px solid rgb(227, 200, 149);
+      cursor: pointer;
+    }
+  }
+
+  &__all {
+    &:hover {
+      border: 3px solid rgb(227, 200, 149);
+      cursor: pointer;
+    }
+  }
+}
