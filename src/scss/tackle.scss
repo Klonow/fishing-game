@@ -1,0 +1,93 @@
+.tackle-item {
+  position: relative;
+  height: 100%;
+  width: 170px;
+  background: white;
+  border-right: 2px solid DarkGreen;
+
+  &__quantity {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  &__img {
+    height: 100%;
+    width: 150px;
+    padding: 10px;
+  }
+
+  &__name {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  &:hover .transparent-background {
+    position: absolute;
+    width: 170px;
+    height: 100%;
+    background: rgba(46,139,87, 0.2);
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    color: DarkGreen;
+  }
+}
+
+.transparent-background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  z-index: 2;
+}
+
+.tackle-img {
+  width: 100%;
+  height: 100%;
+}
+
+.tackle-footer__fishingrod {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-tackle-item {
+  position: relative;
+
+  &__name {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  &__img {
+    width: 100%; height: 100%;
+  }
+
+  &__quantity {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+table {
+  width: 100%;
+  border: 4px double black;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  background: #ccc;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+}

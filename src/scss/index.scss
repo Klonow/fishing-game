@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import './menu.scss';
+@import './canvas.scss';
+@import './shop.scss';
+@import './tackle.scss';
+@import './inventory.scss';
+@import './preloader.scss';
+
+html, body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #2D4424;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}

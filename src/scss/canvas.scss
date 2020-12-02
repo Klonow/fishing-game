@@ -1,0 +1,246 @@
+.canvas {
+  position: absolute;
+  height: auto;
+  width: 900px;
+  border: 2px solid black;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.canvas-layout {
+  width: 900px;
+  height: 500px;
+  position: relative;
+}
+
+.layout-inventory {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__tackle-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-tackle img {
+  width: 100%;
+  height: 100%;
+}
+
+.inventory__cards {
+  border: 2px solid black;
+  width: 95%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.over {
+  width: auto;
+  height: 95%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin: 10px;
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+}
+
+.card img {
+  height: 80%;
+}
+
+.inventory__tackle {
+  width: 95%;
+  height: 40%;
+}
+
+
+
+.result {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: green;
+  top: 30px;
+  left: 30px;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+.sach {
+  width: 110px;
+  height: 180px;
+  border: 2px solid black;
+}
+
+.main {
+  padding: 20px;
+  display: flex;
+}
+
+.tackle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.catching {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.fishingrod {
+  border: 2px solid black;
+}
+
+.fishingline {
+  border: 2px solid black;
+}
+
+.footer-tackle {
+  display: flex;
+  height: 100%;
+}
+
+.footer-tackle{
+  width: 100%;
+  display: flex;
+}
+
+.f-f, .f-b, .f-fg, .f-c, .f-h {
+  width: 20%;
+  border: 2px solid black;
+}
+
+.online {
+  width: 110px;
+  height: 180px;
+  border: 2px solid black;
+}
+
+.progress {
+  width: 0px;
+  background: green;
+}
+
+.message {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border: 2px solid black;
+  background: green;
+  padding: 50px 70px;
+
+  &__title {
+    margin-right: 10px;
+  }
+
+  &__image {
+    margin-left: 10px;
+  }
+
+  &__close:before {
+    content: '\2716';
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+    color: red;
+  }
+}
+
+
+
+.user-inventory {
+  background: url("../assets/backgrounds/background.png") no-repeat 100% 100%;
+  background-size: cover;
+  display: flex;
+  padding: 10px 10px 10px 0;
+}
+
+.btn-open-inventory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  &__cage {
+    width: 85px;
+    height: 100px;
+    //background: url('../assets/cageNew.png') no-repeat;
+    margin-left: 10px;
+  }
+
+  &__inventory {
+    width: 85px;
+    height: 100px;
+    //background: url('../assets/tackle.png') no-repeat;
+    margin-right: 10px;
+  }
+}
+
+.tackle-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tackle-footer div {
+  width: 100%;
+  height: 140px;
+  border: 1px solid black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.catching__progress {
+  height: 20px;
+  width: 0;
+  overflow: hidden;
+}
+
+.catching__progress-layout {
+  width: 675px;
+  height: 100%;
+  background: linear-gradient(90deg, green, green, yellow, yellow, red);
+}
+
+.catching__fishingline {
+  border: 2px solid black;
+}
+
+.catching__name {
+  position: absolute;
+}
+
+.time {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+
