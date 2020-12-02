@@ -1,0 +1,49 @@
+{
+  "name": "fishing-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klonow/fishing-game.git"
+  },
+  "keywords": [
+    "game",
+    "fish",
+    "fishing-game",
+    "javascript"
+  ],
+  "author": "Klonov <sindikat633@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klonow/fishing-game/issues"
+  },
+  "homepage": "https://github.com/Klonow/fishing-game#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.2",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.5.3",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
