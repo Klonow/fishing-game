@@ -1,0 +1,11 @@
+export const POSITION_FISHING_ROD_Y = 270
+export const POSITION_FISHING_ROD_X = 500
+export const FLOAT_SPEED = 40
+export const RIGHT_AREA_MAP = 900
+export const TOP_AREA_MAP = 170
+export const STARTED_VALUE_STATE = 'fishingrod'
+export const CANVAS_WIDTH = 900
+export const CANVAS_HEIGHT = 500
+export const DEFAULT_VALUE_DISTANCE = 120
+export const DIAPASON_NUMBER = 10000
+export const GAME_TIME = 5000
